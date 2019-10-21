@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 /* eslint-disable indent */
 
+=======
+>>>>>>> ab72486ad41b9082eeffa5925ee6f3b2dd03a6c7
 function daysAndMonths(month, leapYear){
     let days;
     switch(month){
