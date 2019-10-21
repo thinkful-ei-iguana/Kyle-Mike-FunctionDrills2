@@ -10,13 +10,7 @@ function daysAndMonths(month, leapYear){
             days = `${month} has 30 days.`;
             break;
         case 'February':
-            // if (leapYear === true){
-            // days = `${month} has 28 days.`
-            // }
             days = `${month} has ${leapYear ? 29:28} days.`;
-            // else{
-            // days = `${month} has 29 days.`
-            // }
             break;
         case 'January':
         case 'March':
